@@ -6,7 +6,7 @@ class ProductItemsController < ApplicationController
     @shopping_cart = ProductItem.where(customer_id: current_customer.id, order_id: nil)
     @total_value = 0
     @shopping_cart.each do |item|
-      @total_value += item.sum_total 
+      @total_value += item.sum_total
     end
   end
 
