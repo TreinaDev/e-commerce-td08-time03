@@ -6,10 +6,10 @@ margarete = Merchant.create!(name: 'Margarete', email: 'margarete@mercadores.com
 lucas = Merchant.create!(name: 'Lucas', email: 'lucas@mercadores.com.br', password: 'password')
 
 # customers
-joao = Customer.create!(name: 'João Almeida', email: 'joao@email.com', registration_number: '123.456.789-00', full_adress: 'Alameda Santos, 1293 conj 73, Jardim Paulista, São Paulo - SP')
-erika = Customer.create!(name: 'Erika Campos', email: 'erika@email.com', registration_number: '987.654.321-01', full_adress: 'Alameda Santos, 1293 conj 73, Jardim Paulista, São Paulo - SP')
-luana = Customer.create!(name: 'Luana Sales', email: 'luana@email.com', registration_number: '555.851.100-76', full_adress: 'Av. da Casa da Luana Sales, 859, Jardim Carvalho, São Paulo - SP')
-apple_inc = Customer.create!(name: 'Apple Inc.', email: 'apple@email.com', registration_number: '99.521.666/0001-98', full_adress: 'Rua da Apple, 100, Vale do Silício, Portão - RS')
+joao = Customer.create!(name: 'João Almeida', password: '123456', email: 'joao@email.com', registration_number: '123.456.789-00', full_adress: 'Alameda Santos, 1293 conj 73, Jardim Paulista, São Paulo - SP')
+erika = Customer.create!(name: 'Erika Campos', password: '123456', email: 'erika@email.com', registration_number: '987.654.321-01', full_adress: 'Alameda Santos, 1293 conj 73, Jardim Paulista, São Paulo - SP')
+luana = Customer.create!(name: 'Luana Sales', password: '123456', email: 'luana@email.com', registration_number: '555.851.100-76', full_adress: 'Av. da Casa da Luana Sales, 859, Jardim Carvalho, São Paulo - SP')
+apple_inc = Customer.create!(name: 'Apple Inc.', password: '123456', email: 'apple@email.com', registration_number: '99.521.666/0001-98', full_adress: 'Rua da Apple, 100, Vale do Silício, Portão - RS')
 
 # categories
 eletronicos = Category.create!(name: 'Eletronicos', status: 0)
